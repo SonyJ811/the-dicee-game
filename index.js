@@ -1,6 +1,6 @@
 var p1,p2;
 
-if(!p1 || !p2 || p1===p2){
+while(!p1 || !p2 || p1===p2){
     alert("Please enter player's names");
     p1=prompt("Please enter Player-1 name");
     p2=prompt("Please enter Player-2 name");
